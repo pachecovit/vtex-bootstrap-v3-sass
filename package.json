@@ -1,18 +1,44 @@
 {
-  "name": "@pachecovit/ctz-bootstrap3-sass",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "name": "vtex-bootstrap-v3-sass",
+  "version": "3.3.7",
+  "description": "vtex-bootstrap-v3-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.",
+  "main": "assets/javascripts/bootstrap.js",
+  "style": "assets/stylesheets/_bootstrap.scss",
+  "sass": "assets/stylesheets/_bootstrap.scss",
+  "files": [
+    "assets",
+    "eyeglass-exports.js",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pachecovit/ctz-bootstrap3-sass.git"
+    "url": "git+https://github.com/pachecovit/vtex-bootstrap-v3-sass.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "css",
+    "eyeglass-module"
+  ],
+  "contributors": [
+    "Thomas McDonald",
+    "Tristan Harward",
+    "Peter Gumeson",
+    "Gleb Mazovetskiy"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twbs/bootstrap-sass/issues"
   },
-  "author": "Conectiza",
-  "license": "ISC"
+  "devDependencies": {
+    "node-sass": "^3.8.0",
+    "mincer": "~1.4.0",
+    "ejs": "~2.4.2"
+  },
+  "eyeglass": {
+    "exports": "eyeglass-exports.js",
+    "needs": "^0.7.1"
+  }
 }
